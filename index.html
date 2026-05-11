@@ -11,7 +11,7 @@ la página-->
 dar el formato del menu-->
 <header id="mi-encabezado">
 
-<title>CURSO HTML</title>
+<title>Diseño de arquitectura de softwareL</title>
 <!--Creacion del menú utilizando Nav-->
 <nav>
 <ul>
@@ -22,7 +22,7 @@ dar el formato del menu-->
 </nav>
 
 <!--Texto del encabezado-->
-<h1>Curso de HTML</h1>
+<h1>Diseño de arquitectura de software</h1>
 <p>Bienvenidos</p>
 
 </header>
@@ -35,79 +35,54 @@ style.css-->
 <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
 estan especificados en el archivo style.css*-->
 <section class="contenido">
-<h2> <span style="background-color: rgb(208, 209, 245);" ;>Bienvenidos al
-Curso de HTML</span></h2>
+<h2> <span style="background-color: rgb(208, 209, 245);" ;>Conociendo la arquitectura de software</span></h2>
 <tr><td> <hr>
 </hr>
 <p>
-En este curso, aprenderás los fundamentos esenciales de HTML, el
-lenguaje de marcado utilizado
-para crear páginas web. HTML, que significa HyperText Markup Language,
-es la base de la web
-y es crucial para cualquier persona que desee diseñar y desarrollar sitios
-web.
-Durante este curso, exploraremos en profundidad los conceptos clave de
-HTML.
-Aprenderás cómo estructurar una página web utilizando etiquetas HTML,
-cómo crear encabezados,
-parárrafos, listas y enlaces. También te sumergirás en el mundo de las
-imágenes y los elementos
-multimedia, aprendiendo a insertar imágenes, videos y audio en tus
-páginas web.</p>
+El diseño de arquitectura de software para una página web consiste 
+en estructurar de manera lógica y ordenada los componentes técnicos y los contenidos
+para garantizar un sistema escalable, rápido y seguro [1]. Esta infraestructura se divide 
+principalmente en tres capas esenciales: la capa de presentación o frontend, que es la interfaz
+visual con la que interactúan los usuarios; la capa de negocio o backend, donde se procesan las
+reglas de la aplicación y la seguridad; y la capa de datos, encargada del almacenamiento en bases 
+de datos relacionales o no relacionales.
 <p>
-Además, exploraremos las mejores prácticas de diseño web y cómo
-aplicar estilos a tus páginas
+Para comunicar estos elementos de forma eficiente, se implementan patrones arquitectónicos 
+como el Modelo-Vista-Controlador (MVC) para proyectos estándar, o arquitecturas de microservicios 
+para plataformas masivas que requieren alta disponibilidad. En paralelo a la ingeniería de código, 
+se debe aplicar una sólida Arquitectura de la Información (AI) que defina la jerarquía del contenido, 
+los menús de navegación y el mapa del sitio</p>
 
-con CSS (Cascading Style Sheets). Aprenderás cómo dar formato a tus
-textos, cambiar colores,
-tamaños y fondos, y crear diseños atractivos y responsivos.</p>
 
-No solo te limitarás a la teoría, sino que también tendrás la oportunidad de
-poner en práctica
-tus conocimientos con ejercicios y proyectos. Desarrollarás tu propio sitio
-web a lo largo del
-curso, aplicando lo que has aprendido en cada lección.
 <p>
-Al finalizar este curso, estarás preparado para crear tus propias páginas
-web desde cero y
-podrás continuar tu camino en el mundo del desarrollo web.
-¡Estamos emocionados de tenerte a bordo y esperamos que disfrutes
-aprendiendo HTML con nosotros!
-A medida que avanzamos en este curso, te sumergirás en temas más
-avanzados de HTML, como
-formularios interactivos que permiten a los usuarios enviar datos, tablas
-para organizar
-información de manera estructurada y elementos semánticos que mejoran
-la accesibilidad y el SEO
-de tus páginas.</p>
-<p>
-También aprenderás a trabajar con enlaces y anclas para navegar
-eficientemente entre páginas y
-a utilizar etiquetas meta para proporcionar información importante sobre
-tu sitio web a los
-motores de búsqueda.</p>
-<p>
-En resumen, este curso está diseñado para que adquieras un sólido
-entendimiento de HTML y las
+Esto no solo optimiza la experiencia del usuario al permitirle encontrar
+datos en pocos clics, sino que también facilita el rastreo por parte de los
+motores de búsqueda para mejorar el posicionamiento SEO. 
 
-habilidades necesarias para crear páginas web impresionantes y
-funcionales. A medida que
-progreses en las lecciones y realices los ejercicios prácticos, ganarás la
-confianza necesaria
-para emprender proyectos web por tu cuenta.</p>
+El diseño técnico de una página web moderna se beneficia enormemente al integrar 
+una red de distribución de contenidos (CDN), la cual duplica los archivos estáticos
+en servidores repartidos por todo el mundo para reducir drásticamente los tiempos de 
+carga de los usuarios. Asimismo, la arquitectura actual prioriza el desarrollo de API 
+REST o GraphQL para conectar el servidor con aplicaciones móviles externas de forma fluida, 
+asegurando que la lógica del negocio permanezca centralizada y protegida ante ataques maliciosos
+ comunes como la inyección de código.</p>
 <p>
-No importa si eres un principiante absoluto en el mundo del desarrollo
-web o si ya tienes
-experiencia previa; este curso te proporcionará los conocimientos
-esenciales y la práctica
-necesaria para convertirte en un desarrollador web competente.</p>
-<p>
-Si estás listo para embarcarte en esta emocionante aventura de
-aprendizaje, ¡comencemos
-ahora mismo! Explora nuestras lecciones, realiza los ejercicios y no dudes
-en hacer
-preguntas si surgen dudas. Estamos aquí para ayudarte en tu viaje hacia el
-dominio de HTML.</p>
+En el ámbito de los datos y el rendimiento, los arquitectos de software implementan
+ sistemas de almacenamiento en caché en memoria, utilizando herramientas como Redis, 
+ para guardar las consultas web más frecuentes y evitar el colapso de la base de datos 
+ principal durante picos de tráfico. Esta estrategia de optimización se complementa con 
+ prácticas de integración y despliegue continuos (CI/CD), que permiten automatizar las 
+ pruebas de código y lanzar actualizaciones constantes al sitio web sin necesidad de 
+ interrumpir el servicio ni generar caídas del sistema. </p>
+ <p>
+Desde la perspectiva de la infraestructura en la nube, la tendencia 
+se inclina hacia soluciones basadas en contenedores con Docker y orquestadores
+como Kubernetes, lo que permite que la página web sea agnóstica al proveedor y
+se adapte automáticamente a la demanda real de los usuarios. Esta flexibilidad 
+técnica garantiza que los recursos del servidor crezcan o disminuyan de forma 
+elástica, optimizando los costos operativos de la plataforma mientras se mantiene 
+una navegación estable, veloz y de alta disponibilidad las veinticuatro horas.</p>
+
 
 </td></tr>
 
@@ -117,7 +92,7 @@ dominio de HTML.</p>
 <!--Pie de pagina-->
 <!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar
 el formato del pie de pagina-->
-<div class="footer">Derechos reservados © 2024 Raquel Medrano</div>
+<div class="footer">Derechos reservados © 2026 Willver Sánchez</div>
 
 <!--Invoca al archivo script.js que contiene la funcion que controla el
 comportamiento del menu-->
